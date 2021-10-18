@@ -49,6 +49,7 @@ ul {
 
 .about {
     text-align: center;
+    padding-bottom: 5%;
 }
 
 .about h2 {
@@ -70,15 +71,16 @@ ul {
 
 .work {
     text-align:center;
-    border-color:rgb(44, 44, 44);
+    background:rgb(44, 44, 44);
 }
 
 .work h2 {
     font-size:35px;
-    color: rgb(44, 44, 44);
+    color: whitesmoke;
     margin-bottom: 35px;
     padding: 35px 100px 20px 100px;
     border-bottom: 3px solid;
+    border-color:whitesmoke;
     display:inline-block;
 }
 
@@ -86,11 +88,19 @@ ul {
     display: inline-flexbox;
     padding: 10px 10px 20px 10px;
     font-size:20px;
+    color:whitesmoke;
+}
+
+.work div h3 {
+    color:whitesmoke;
+}
+
+.work div h4{
+    color:whitesmoke;
 }
 
 .contact {
     text-align: center;
-    
     padding-bottom:20px;
 }
 
