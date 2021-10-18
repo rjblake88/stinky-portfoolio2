@@ -108,6 +108,11 @@ ul {
     color:whitesmoke;
 }
 
+.zoom:hover {
+    transform: scale(1.2);
+    border-color:whitesmoke;
+}
+
 .contact {
     text-align: center;
     padding-bottom:20px;
