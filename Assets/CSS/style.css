@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    color:rgb(44, 44, 44);
 }
 
 body {
@@ -44,4 +45,72 @@ header nav ul li a {
 
 ul {
     list-style-type: none;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    font-size:35px;
+    color: rgb(44, 44, 44);
+    margin-bottom: 35px;
+    padding: 35px 100px 20px 100px;
+    border-bottom: 3px solid;
+    display:inline-block;
+}
+
+.about p {
+    line-height: 1.7;
+    color:rgb(44, 44, 44);
+    width: 80%;
+    font-size: 20px;
+    padding-left: 10%;
+}
+
+.work {
+    text-align:center;
+    border-color:rgb(44, 44, 44);
+}
+
+.work h2 {
+    font-size:35px;
+    color: rgb(44, 44, 44);
+    margin-bottom: 35px;
+    padding: 35px 100px 20px 100px;
+    border-bottom: 3px solid;
+    display:inline-block;
+}
+
+.work div {
+    display: inline-flexbox;
+    padding: 10px 10px 20px 10px;
+    font-size:20px;
+}
+
+.contact {
+    text-align: center;
+    
+    padding-bottom:20px;
+}
+
+.contact h2 {
+    font-size:35px;
+    color: rgb(44, 44, 44);
+    margin-bottom: 35px;
+    padding: 35px 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color:rgb(44, 44, 44);
+    display:inline-block;
+}
+
+.contact ul li {
+    display:inline;
+    padding: 0 10px 20px 10px;
+    font-size: 20px;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color:rgb(44, 44, 44);
 }
