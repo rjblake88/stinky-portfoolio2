@@ -73,6 +73,9 @@ ul {
 .work {
     text-align:center;
     background:rgb(44, 44, 44);
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .work h2 {
@@ -82,7 +85,6 @@ ul {
     padding: 35px 100px 20px 100px;
     border-bottom: 3px solid;
     border-color:whitesmoke;
-    display:inline-block;
 }
 
 .work div {
