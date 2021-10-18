@@ -53,6 +53,12 @@ ul {
     padding-bottom: 5%;
 }
 
+.about img {
+    max-width: 20%;
+    display: center;
+    padding-top: 30px;
+}
+
 .about h2 {
     font-size:35px;
     color: rgb(44, 44, 44);
